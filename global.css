@@ -1,0 +1,34 @@
+/* CSS RESETS */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*Variaveis Globais*/
+body {
+  /* Cores */
+  --cor-letras-info: #faebd7;
+  --cor-principal: #23232e;
+  --cor-borda: #808080;
+
+  /* Fontes */
+  --titulo: 25px;
+  --informacoes: 18px;
+
+  /* Família de fontes */
+  --fonte-titulos: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  --fonte-info: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  --fonte-principal: "Open Sans", sans-serif;
+}

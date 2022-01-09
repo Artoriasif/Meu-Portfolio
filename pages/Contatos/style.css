@@ -1,0 +1,18 @@
+@import url("../../global.css");
+
+body {
+  background-image: linear-gradient(to right, black, rgb(47, 102, 204), black);
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}
+.contato-container {
+  background-color: var(--cor-principal);
+  width: 1000px;
+  height: 150px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--cor-borda);
+}
